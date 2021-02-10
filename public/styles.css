@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+}
+h1{
+    font-size:2rem;
+    margin-bottom: 1em;
+    margin-top:  1em;
+}
+h2{
+    font-size:1.5rem;
+    margin-bottom: 1em;
+}
+p{
+    font-size:1rem;
+    margin-bottom: 2em;
+}
+.wrapper{
+    width:50vw;
+    min-width:300px;
+    margin:0 auto;
+}
+
+.letterList{
+    letter-spacing: 0.1em;
+    font-size:2rem;
+    margin-bottom: 1em;
+}
+.questionLetter{
+    display: inline;
+    font-weight: bold;
+    width:1.2em;
+    height:1.2em;
+    text-align: center;
+    font-size: 2rem;
+}
+.completed-letter{
+    background-color :hsl(90deg,70%,60%);
+}
+
+.current-letter{
+    background-color :hsl(30deg,100%,50%);
+}
+.answer label{
+    font-size: 1rem;
+    display: block;
+}
+.answer input{
+    font-size: 2rem;
+    margin-bottom: 2em;
+    width:100%;
+}
+button{
+    border:none;
+    background-color: inherit;
+    font:inherit;
+    cursor: pointer;
+    display: block;
+    width:fit-content;
+}
+.restart-button{
+    font-size: 1rem;
+    background-color: hsl(180deg,50%,80%);
+    width:10em;
+    padding:0.5em 1em;
+    border-radius: 1em;
+    
+}
+.restart-button:hover,.restart-button:focus{
+    background-color: hsl(180deg,70%,70%);
+    box-shadow: rgba(75, 124, 124, 1) 2px 1px 8px ;
+    outline: none;
+}
+.restart-button:active{
+    background-color: hsl(180deg,80%,50%);
+
+}
