@@ -10,7 +10,6 @@ function isSame(string1, string2) {
  * @param {string[]} potential words
  */
 function matchesPhoneticAlphabetWords(guess, words) {
-  console.log({ guess, words });
   return words.filter((w) => isSame(guess, w)).length > 0;
 }
 
