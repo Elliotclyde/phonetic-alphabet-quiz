@@ -5,12 +5,13 @@
   "main": "index.js",
   "devDependencies": {
     "@preact/preset-vite": "^2.10.6",
+    "prettier": "^3.9.10",
     "vite": "^8.3.5"
   },
   "scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
