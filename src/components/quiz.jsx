@@ -1,5 +1,5 @@
-import {Question} from './question.js'
-import {Answer} from './answer.js'
+import {Question} from './question.jsx'
+import {Answer} from './answer.jsx'
 import {useState, useEffect} from 'preact/hooks'
 
 function isSame(string1,string2){

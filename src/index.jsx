@@ -1,8 +1,8 @@
 import { render } from 'preact'
 import {useState,useEffect} from 'preact/hooks'
-import { Quiz } from './components/quiz'
-import { Win } from './components/win'
-import { Timer } from './components/timer'
+import { Quiz } from './components/quiz.jsx'
+import { Win } from './components/win.jsx'
+import { Timer } from './components/timer.jsx'
 import { useTimer } from './utilities/usetimer' 
 import {shuffle} from './utilities/utilities'
 
